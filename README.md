@@ -1,6 +1,6 @@
-### Getting and Cleaning Data: Course Project
+# Getting and Cleaning Data: Course Project
 
-This repo has the files:
+### This repo has the files:
 
 1) tidydata.txt - The tidy data for the Course Project
 
@@ -10,11 +10,11 @@ This repo has the files:
 
 4) Codebook.md - Information about the variables provided in tidydata.txt
 
-## Instructions
+### Instructions
 
 1) The file "getdata-projectfiles-UCI HAR Dataset.zip" or"UCI HAR Dataset.zip" must be extracted and the script should be run inside the directory "UCI HAR Dataset" created in the process.
 
-## What it does
+### What it does
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
@@ -22,6 +22,6 @@ Lastly, the script will create a tidy data set containing the means of all the c
 
 This tidy dataset will be written to a file called tidydata.txt, which can also be found in this repository.
 
-## Code Book
+### Code Book
 
 The CodeBook.md file explains the transformations performed and the resulting data and variables.

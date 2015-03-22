@@ -1,9 +1,9 @@
-### Code Book for tidydata.txt
-==============================
+# Code Book for tidydata.txt
+#==============================
 
-## Additional Information can be retrieved from file features_info.txt inside the "getdata-projectfiles-UCI HAR Dataset.zip" or"UCI HAR Dataset.zip" that can be get from "http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip".
+### Additional Information can be retrieved from file features_info.txt inside the "getdata-projectfiles-UCI HAR Dataset.zip" or"UCI HAR Dataset.zip" that can be get from "http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip".
 
-This tidydata.txt have only the calculated Means (except the columns Subject and ActivityName), grouped by ActivityName and Subject, from the following columns:
+###This tidydata.txt have only the calculated Means (except the columns Subject and ActivityName), grouped by ActivityName and Subject, from the following columns:
 
 Subject - The subject ID
 ActivityName - Name of Activity
@@ -38,7 +38,7 @@ fBodyBodyAccJerkMagMean fBodyBodyAccJerkMagStd
 fBodyBodyGyroMagMean fBodyBodyGyroMagStd
 fBodyBodyGyroJerkMagMean fBodyBodyGyroJerkMagStd
 
-The following descriptionm for the variables names where taken from the file features_info.txt:
+###The following descriptionm for the variables names where taken from the file features_info.txt:
 
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
